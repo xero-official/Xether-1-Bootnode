@@ -1,4 +1,4 @@
-# bootnode
+# How to Setup a Xether-1 Bootnode
 
 ```bash
 
