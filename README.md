@@ -67,11 +67,11 @@ systemctl start ether1node && systemctl start xeronode
 
 # Now run the below to get Xerom's ENODE ID
 
-/root/go-xerom/build/bin/geth --exec "admin.nodeInfo" attach ipc://./$HOME/.xerom/geth.ipc
+/root/go-xerom/build/bin/geth --exec "admin.nodeInfo.enode" attach ipc://./$HOME/.xerom/geth.ipc
 
 # Now run the below to get Ether-1's ENODE ID
 
-/root/Ether1/build/bin/geth --exec "admin.nodeInfo" attach ipc://./$HOME/.ether1/geth.ipc
+/root/Ether1/build/bin/geth --exec "admin.nodeInfo.enode" attach ipc://./$HOME/.ether1/geth.ipc
 
 # Send your ENODE ID & Public IP to Fallen or James. 
 
