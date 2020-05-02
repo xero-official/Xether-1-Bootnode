@@ -54,7 +54,7 @@ User=root
 Group=root
 Type=simple
 Restart=always
-ExecStart=/root/go-xerom/build/bin/geth --cache=512 -ethstats "<name>:dec@stats.xerom.org:3000" --syncmode "full" --lightserv 75 --lightpeers 100 --port 30307
+ExecStart=/root/go-xerom/build/bin/geth --cache=512 --syncmode "full" --lightserv 75 --lightpeers 100 --port 30307
 
 [Install]
 WantedBy=default.target
